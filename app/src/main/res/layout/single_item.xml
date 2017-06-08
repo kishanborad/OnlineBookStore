@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/xRelative"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/grid_outline">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/singleItem"
+            />
+
+            <TextView
+                android:id="@+id/singleItemName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="hello"
+                android:layout_marginTop="0dp"
+                android:textSize="17sp"
+                android:textColor="#000000"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="hello"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:id="@+id/xAuthorName"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/xPrice"
+                android:textAlignment="center"
+                android:text="Rs. 250"
+                android:textSize="17dp"
+                android:textColor="#0090ff"
+                />
+    </LinearLayout>
+
+</RelativeLayout>
+</RelativeLayout>

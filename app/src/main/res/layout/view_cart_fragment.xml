@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBase">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Review your cart : "
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:textColor="@color/colorBlack"
+            android:id="@+id/xReview"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="8"
+            android:layout_below="@+id/xReview"
+            android:id="@+id/tv"
+            android:text="Item"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:textColor="@color/colorBlack"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="8"
+            android:text="Price"
+            android:textAlignment="textEnd"
+            android:gravity="end"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:id="@+id/tv2"
+            android:layout_below="@+id/xReview"
+            android:layout_toRightOf="@+id/tv"
+            android:layout_toEndOf="@+id/tv"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorDarkGrey"
+            android:layout_below="@+id/tv2"/>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv"
+            android:layout_above="@+id/xTotal"
+            android:id="@+id/xCartListView"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/xCheckoutButton"
+            android:textSize="20dp"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlack"
+            android:id="@+id/xTotal"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/colorPrimary"
+            android:id="@+id/xCheckoutButton"
+            android:text="Proceed to checkout" />
+
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">OnlineBookStore</string>
+    <string name="title_activity_user_home">UserHomeActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string-array name="categoryIconName">
+        <item>Chemistry</item>
+        <item>Physics</item>
+        <item>Biology</item>
+        <item>Electricity</item>
+        <item>Geography</item>
+        <item>Science</item>
+    </string-array>
+    <string name="title_activity_admin_home">AdminHomeActivity</string>
+
+    <string name="ok">OK</string>
+    <string name="files">Files</string>
+    <string name="directories">Folders</string>
+    <string name="goUp">Go Up</string>
+    <string name="all">Check All</string>
+    <string name="cancel">Cancel</string>
+    <string name="none">Uncheck All</string>
+    <string name="ext">External</string>
+    <string name="Int">Internal</string>
+    <string name="New">New Folder</string>
+    <string name="CNew">Enter New Folder Name</string>
+    <string name="create">Create</string>
+
+</resources>
